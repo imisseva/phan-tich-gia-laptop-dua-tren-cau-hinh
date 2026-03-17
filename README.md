@@ -1,1 +1,1 @@
-# Ph-n-t-ch-gi-laptop-d-a-tr-n-c-u-h-nh
+Phân tích giá laptop dựa trên cấu hình
