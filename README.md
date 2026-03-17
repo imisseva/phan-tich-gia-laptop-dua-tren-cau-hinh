@@ -1,20 +1,18 @@
-09 - Phan tich gia ban Laptop dua trên cấu hình
-
-
+09 - Phan tich gia ban Laptop dua trên cấu hình/
 ├── README.md                 # Hướng dẫn quy trình và cách chạy chương trình
 ├── requirements.txt          # Danh sách thư viện cần cài đặt
-├── crawl_code  
-│   └── gearvn_crawl.py         # Mã nguồn crawl dữ liệu 
+├── crawl_code/               # Mã nguồn thu thập dữ liệu
+│   └── gearvn_crawl.py       
 ├── raw data/                 # Thư mục chứa dữ liệu thô (Chưa qua xử lý)
-│   └── dataset_chotot_api.csv       
-│   └── dataset_phongvu_full_selenium.csv       
-│   └── gearvn_detailed_data.csv   
-│   └── kimlongcenter_final_data.csv   
-│   └── laptop_full_dataset_final.csv   
-├── clean data/               # Thư mục chứa dữ liệu đã làm sạch & đặc trưng
-│   └── laptop_cleaned_missing_data.csv
-│   └── laptop_handled_outliers.csv
-│   └── laptop_master_final_processed.csv
+│   ├── dataset_chotot_api.csv
+│   ├── dataset_phongvu_full_selenium.csv
+│   ├── gearvn_detailed_data.csv
+│   ├── kimlongcenter_final_data.csv
+│   └── laptop_full_dataset_final.csv
+├── clean data/               # Thư mục chứa dữ liệu qua các bước xử lý
+│   ├── laptop_cleaned_missing_data.csv
+│   ├── laptop_handled_outliers.csv
+│   ├── laptop_master_final_processed.csv (File dùng cho phân tích cuối)
 │   └── laptop_robust_scaled.csv
 └── notebooks/                # File Notebook phân tích chi tiết
     └── khdl.ipynb
