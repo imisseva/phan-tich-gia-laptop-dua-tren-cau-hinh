@@ -1,4 +1,6 @@
 09 - Phan tich gia ban Laptop dua trên cấu hình
+
+
 ├── README.md                 # Hướng dẫn quy trình và cách chạy chương trình
 ├── requirements.txt          # Danh sách thư viện cần cài đặt
 ├── crawl_code  
